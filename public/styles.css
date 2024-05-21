@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.homePage{
+    border-bottom: 2px solid #fff;
+}
+.newPost {
+    background-color: rgb(51, 156, 255);
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 2px;
+}
+.homePage:hover,
+.newPost:hover{
+    opacity: 0.7;
+}
+.noPost{
+    text-align: center;
+}
+.editPost{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(51, 156, 255);
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
